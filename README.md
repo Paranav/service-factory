@@ -1,7 +1,7 @@
 # service-factory
 Provides a factory method [<T extends Object> T getService(Class<T> classType)] to get spring bean.
 
-User case:
+Use case:
 1. Gives the access to spring bean in any non bean class.
 
 Tips for "How to use it"
