@@ -12,7 +12,6 @@ Tips for "How to use it"
 	<version>0.0.1-SNAPSHOT</version>
 </dependancy>
 2. create java configuration class with annotation @Configuration and @ComponentScan("com.factory.sf")
-Ex.
 
 @Configuration
 @ComponentScan("com.factory.sf")
