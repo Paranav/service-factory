@@ -12,11 +12,12 @@ Provides a factory method [<T extends Object> T getService(Class<T> classType)] 
 	<artifactId>service-factory</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 </dependancy>
-.```xml
+```
 2. create java configuration class with annotation @Configuration and @ComponentScan("com.factory.sf")<br />
-
-@Configuration<br />
-@ComponentScan("com.factory.sf")<br />
-class serviceFactoryConfiguration {<br />
+```java
+@Configuration
+@ComponentScan("com.factory.sf")
+class serviceFactoryConfiguration {
 
 }
+```
